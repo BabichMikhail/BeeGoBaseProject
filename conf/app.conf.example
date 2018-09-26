@@ -1,0 +1,16 @@
+AppName = BeeGo
+RunMode = dev
+HttpAddr = 127.0.0.1
+HttpPort = 7777
+RunMode = dev
+SessionOn = true
+
+[app]
+secret_key =
+
+[orm]
+driver_name = postgres
+data_source = postgres://postgres:root@127.0.0.1:5432/db_name?sslmode=disable
+max_idle_conn = 30
+max_open_conn = 50
+debug_log = true

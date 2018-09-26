@@ -1,0 +1,11 @@
+conf/app.conf
+holdem.exe
+holdem.exe~
+static/css/app.min.css
+static/css/lib.min.css
+static/js/app.min.js
+static/js/lib.min.js
+.idea/*
+main.exe
+node_modules/*
+tmp
